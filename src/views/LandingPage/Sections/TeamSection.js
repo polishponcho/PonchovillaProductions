@@ -16,7 +16,7 @@ import CardFooter from "components/Card/CardFooter.js";
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.js";
 
-import coloredMilleniumFalcon from "assets/img/faces/coloredMilleniumFalcon.JPG";
+import coloredMilleniumFalcon from "assets/img/HeadShot/coloredMilleniumFalcon.JPG";
 
 const useStyles = makeStyles(styles);
 

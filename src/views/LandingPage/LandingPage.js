@@ -48,7 +48,7 @@ export default function LandingPage(props) {
 
       <Parallax
         filter
-        image={require("assets/img/ponchosPics/archSkyline.jpeg")}
+        image={require("assets/img/PonchosPics/archSkyline.jpeg")}
       >
         <div className={classes.container}>
           <GridContainer>
