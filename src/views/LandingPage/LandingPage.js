@@ -40,7 +40,7 @@ export default function LandingPage(props) {
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
-          height: 400,
+          height: 750,
           color: "white",
         }}
         {...rest}
@@ -48,15 +48,23 @@ export default function LandingPage(props) {
 
       <Parallax
         filter
-        image={require("assets/img/PonchosPics/archSkyline.jpeg")}
+        // image={require("assets/img/PonchosPics/archSkyline.jpeg")}
+        image={require("assets/img/Logo/VideoLogo.mp4")}
       >
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>Your Story Starts With Us.</h1>
+              <h1 className={classes.title}>Lets make a movie...</h1>
               <h4>
-                Dreams kept me alive throughout the night. Pictures and videos
-                kept me lucid throughout the day.
+                Dreams kept me alive
+                <br />
+                throughout the night.
+                <br />
+                Pictures and videos
+                <br />
+                kept me lucid
+                <br />
+                throughout the day.
               </h4>
               <br />
               <Button
