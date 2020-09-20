@@ -16,7 +16,6 @@ import CardFooter from "components/Card/CardFooter.js";
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.js";
 
-import coloredMilleniumFalcon from "assets/img/HeadShot/coloredMilleniumFalcon.JPG";
 import beaux from "assets/img/HeadShot/beaux.mp4";
 
 const useStyles = makeStyles(styles);
@@ -30,7 +29,7 @@ export default function TeamSection() {
   );
   return (
     <div className={classes.section}>
-      <h2 className={classes.title}>Here is our team</h2>
+      {/* <h2 className={classes.title}>Here is our team</h2> */}
       <div>
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}></GridItem>
@@ -51,15 +50,9 @@ export default function TeamSection() {
                   Web and mobile ceator, videographer, photographer in no
                   particular order. Setting out to create new brands.
                 </p>
+                <h6>polishponcho@gmail.com</h6>
               </CardBody>
-              <CardFooter className={classes.justifyCenter}>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-twitter"} />
-                </Button>
+              {/* <CardFooter className={classes.justifyCenter}>
                 <Button
                   justIcon
                   color="transparent"
@@ -67,7 +60,7 @@ export default function TeamSection() {
                 >
                   <i className={classes.socials + " fab fa-linkedin"} />
                 </Button>
-              </CardFooter>
+              </CardFooter> */}
             </Card>
           </GridItem>
         </GridContainer>
