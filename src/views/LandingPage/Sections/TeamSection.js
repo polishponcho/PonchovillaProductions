@@ -17,6 +17,7 @@ import CardFooter from "components/Card/CardFooter.js";
 import styles from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.js";
 
 import coloredMilleniumFalcon from "assets/img/HeadShot/coloredMilleniumFalcon.JPG";
+import beaux from "assets/img/HeadShot/beaux.mp4";
 
 const useStyles = makeStyles(styles);
 
@@ -36,11 +37,7 @@ export default function TeamSection() {
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img
-                  src={coloredMilleniumFalcon}
-                  alt="..."
-                  className={imageClasses}
-                />
+                <img src={beaux} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
                 Poncho
