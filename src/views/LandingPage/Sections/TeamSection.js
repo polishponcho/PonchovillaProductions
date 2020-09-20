@@ -47,7 +47,7 @@ export default function TeamSection() {
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  Web and mobile ceator, videographer, photographer in no
+                  Web and mobile creator, videographer, photographer in no
                   particular order. Setting out to create new brands.
                 </p>
                 <h6>polishponcho@gmail.com</h6>
